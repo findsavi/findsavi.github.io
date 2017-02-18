@@ -10,7 +10,7 @@ function unblock(){
 document.getElementById('nextlvl').style.display='block';
 }
 function nxtlevl(){
-location.href=('findsavi.github.io/SAVI2 divi code.js');
+location.href=('https://findsavi.github.io/SAVI2%20divi%20code.html');
 }
 
 function guessN()

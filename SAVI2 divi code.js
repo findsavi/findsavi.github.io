@@ -45,7 +45,7 @@ function reloading() {
     location.reload();
 }
 function nxtlevl(){
-location.href=('findsavi.github.io/SAVI3 hybrid code.js');
+location.href=('https://findsavi.github.io/SAVI3%20hybrid%20code.html');
 }
 function guessNum() 
 {

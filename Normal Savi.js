@@ -9,7 +9,7 @@ function unblock(){
 document.getElementById('nextlvl').style.display='block';
 }
 function nxtlevl(){
-location.href=('findsavi.github.io/SAVI ad-sb code.html');
+location.href=('https://findsavi.github.io/SAVI%20ad-sb%20code.html');
 }
 
 function guess() {
