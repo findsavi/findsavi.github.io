@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SAVI Stage-3</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="savi.css"></head>
+<body>
+<div class="col-group">		
+<p><h1>Welcome To SAVI. Stage-3</h1></p>
+<div class="cs">
+<h1>SAVI Guess My Number Game Instructions:</h1>
+ First you have to guess n, where n is randomly generated number falls in between 1 and 99. If your guess is wrong addition then division operation will be done between n and guess so that the resultant (quotient) always falls in between 1 and 99. And least possible natural number is chosen as divisor to perform division. Eg: n = 40, guess=5 Addition I: (n+guess)=(40+5)=45 Now 45 can be divided with 3 or 5 or 9 or 15 or 45. System choose least possible divisor to divide 45. Division II: (n+guess)/least possible divisor in natural numbers. (45)/3=15 15 is the resultant that you have to guess. If you wrongly guess the resultant as 10. Again addition then division operation will be done like below Addition I: 15+10=25 Division II: 25/5=5 Now 5 is the resultant that you have to find out. 
+If you got resultant you can find the n by substituting in the equation. Hint: The number you have to find out whether it is n or resultant always falls in between 1 and 99. 
+</div>
+	<div class="cs">
+<p id="rest"><br>You have to guess <b>n</b> number which falls in between 1 and 99.
+</p>
+	<p style="font-size:17px">
+		<br>&nbsp;&nbsp;&nbsp; Your guess:&nbsp;
+		<input type="text" id="textbox" value="" autofocus />&nbsp;
+	</p>
+	<p>     <input type="button" id="button" value="Guess" />&nbsp;
+			<input type="button" id="reset" value="Reset" />
+	</p>
+<p id="demo" style="display:none"> Now what is the value of 'n'? 
+	<input type="text" id="txt" style="display:none"/> 
+	<button type="button" id="sub" style="display:none" onclick="findn()">Submit</button>
+</p>
+	<p ><button type="button" id="nextlvl" style="display:none;"  onclick="nxtlevl()">Next Level</button>
+	</p>
+</div>
+<div class="cs">
+	<p><br>	&nbsp;&nbsp;&nbsp; Result:	</p>
+	<p id="ans" style="text-align: center;">	</p>
+</div>
+</div>
+	<div>
+		<div class="footer">
+			&copy Reserved by Sandeep. Thanks to Smart Telugu.
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="SAVI2 divi code.js"></script>
+</html>

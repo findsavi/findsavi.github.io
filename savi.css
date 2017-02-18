@@ -1,0 +1,41 @@
+body{
+	 padding: 5px;
+	 background-color: #c6b8ba;
+}
+.cs {
+	font-size: 16px;	
+    background-color: #f7adb7;    
+    border: 1px solid green;
+    margin: 1px;
+    padding: 5px;    
+	height: 550px;
+}
+h1 {
+    font-size: 21px;
+	text-align: center;
+}
+.pad{
+    text-align: center;
+	border: 2px solid red;
+	margin: 2.2px;
+    padding: 4px;
+}
+@media screen and (min-width: 990px){
+.col-group > div {
+	float: left;
+	width: 33.15%;
+	margin: 1px;
+}
+}
+@media screen and (min-width: 990px){
+.footer{	
+    position: relative;
+    text-align: center;
+	border: 1px solid ;
+	margin: 1px;
+    padding: 4px;
+	float: left;
+	bottom:0;
+	width: 99.77%;
+}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SAVI Stage-2</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="savi.css">
+</head>
+<body>
+<div class="col-group">		
+	<p><h1>Welcome To SAVI. Stage-2</h1></p>
+<div class="cs">
+<h1>SAVI Guess My Number Game Instructions:</h1>
+From here onwards till last stage, first of all you have to guess ‘n’ where n is randomly generated number falls in between 1 and 99. When your guess matches with ‘n’ then game will be over. If not, addition or subtraction operation will be done based on the condition ‘resultant’ always falls in between 1 and 99. There after you have to guess the resultant. 
+If you failed to guess the resultant correctly again addition or subtraction operation will be done based on the condition ‘resultant’ always falls in between 1 and 99. Then you have to guess new resultant. Like this it goes on till you find out the correct number i.e. resultant. All you need to do is using the clues given in result section you have to find out resultant. If you got resultant you can find the n by substituting in the equation. Hint: The number you have to find out whether it is n or resultant always falls in between 1 and 99. 
+</div>
+<div class="cs">
+<p id="rest"><br>You have to guess <b>n</b> number which falls in between 1 and 99.
+</p>
+<p style="font-size:17px">
+		<br>&nbsp;&nbsp;&nbsp; Your guess:&nbsp;
+		<input type="text" id="textbox" value="" autofocus />&nbsp;
+</p>   
+<p> <input type="button" id="button" value="Guess" />&nbsp;
+    <input type="button" id="reset" value="Reset" />
+</p>
+<p><button type="button" id="nextlvl" style="display:none;"  onclick="nxtlevl()">Next Level</button>
+</p>
+</div>
+<div class="cs">
+<p>
+<br>&nbsp;&nbsp;&nbsp;Result:
+</p>
+<p id="ans" style="text-align: center;">	
+</p>
+</div>
+</div>
+<div>
+		<div class="footer">
+			&copy Reserved by Sandeep. Thanks to Smart Telugu.
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="SAVI ad-sb code.js"></script>
+<html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><head><title>SAVI Stage-1</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="savi.css">
+</head>
+<body>
+<div class="col-group">	
+<p><h1>Welcome To SAVI. Stage-1</h1></p>
+<div class="cs">
+<h1>SAVI Guess My Number Game Instructions:</h1>
+This one is simple. This game existed long before. You have to guess randomly generated ‘n’ number between 1 and 100. You can guess the number in 5 to 6 turns by using the clues given in the result section.
+If you take more than 6 turns you can try again to finish in 6 turns.
+</div>
+<div class="cs">
+<p>	<br>&nbsp;&nbsp;&nbsp; Your guess:&nbsp;
+    <input type="text" id="textbox" value="" autofocus />&nbsp;
+</p>
+<p>
+    <input type="button" id="button" value="Guess" />&nbsp;
+    <input type="button" id="reset" value="Reset" />
+</p>
+<br><p><button type="button" id="nextlvl" style="display:none;"  onclick="nxtlevl()">Next Level</button>
+</p>
+</div>
+<div class="cs">
+	<p><br>&nbsp;&nbsp;&nbsp; Result:</p>
+	<p id="ans" style="text-align: center;"> </p>
+</div>
+</div>
+	<div>
+		<div class="footer">
+			Created by Sandeep. Thanks to Smart Telugu.
+		</div>
+	</div> 
+</body>
+<script type="text/javascript" src="Normal Savi.js"></script>
+</html>
